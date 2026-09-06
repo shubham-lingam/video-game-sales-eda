@@ -1,12 +1,6 @@
-# 🎮 Video Game Sales — Exploratory Data Analysis
+# Video Game Sales — Exploratory Data Analysis
 
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
-![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-blue)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-green)
-![Kaggle](https://img.shields.io/badge/Platform-Kaggle-blue)
-
-## 📌 Project Overview
+## Project Overview
 
 The video game industry has evolved significantly over the years, driven by changes in gaming platforms, consumer preferences, genres, publishers, and regional markets.
 
@@ -16,7 +10,7 @@ The analysis was developed using **Python, Pandas, NumPy, and Matplotlib** in a 
 
 ---
 
-## 🎯 Business Objective
+## Business Objective
 
 The objective of this project is to transform historical video game sales data into meaningful business insights.
 
@@ -31,7 +25,7 @@ The analysis focuses on:
 
 ---
 
-## ❓ Business Questions
+## Business Questions
 
 This project answers six key business questions:
 
@@ -44,7 +38,7 @@ This project answers six key business questions:
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 The dataset contains **16,598 video game records** and 11 variables.
 
@@ -68,7 +62,7 @@ Sales values are measured in **millions of units**.
 
 ---
 
-## 🧹 Data Cleaning
+## Data Cleaning
 
 The dataset was inspected and cleaned before performing the analysis.
 
@@ -90,13 +84,13 @@ The dataset was inspected and cleaned before performing the analysis.
 
 ---
 
-# 📈 Key Findings
+# Key Findings
 
-## 1️⃣ Peak Sales Year
+## 1. Peak Sales Year
 
 **2008** was the strongest year in the dataset, with:
 
-> **678.90 million units**
+**678.90 million units**
 
 The Top 5 years were:
 
@@ -108,13 +102,17 @@ The Top 5 years were:
 | 2010 | 600.45M |
 | 2006 | 521.04M |
 
+### Business Insight
+
+The strongest sales years were concentrated between **2006 and 2010**, indicating a particularly successful period for the historical video game market represented in the dataset.
+
 ---
 
-## 2️⃣ Leading Gaming Platform
+## 2. Leading Gaming Platform
 
 The **PS2** generated the highest cumulative global sales:
 
-> **1,255.64 million units**
+**1,255.64 million units**
 
 Top-performing platforms included:
 
@@ -124,33 +122,45 @@ Top-performing platforms included:
 - Wii — 926.71M
 - DS — 822.49M
 
+### Business Insight
+
+The PS2 demonstrated the strongest cumulative platform performance in the dataset, showing the importance of a large user base, long platform lifecycle, and strong game library.
+
 ---
 
-## 3️⃣ Highest-Selling Genre
+## 3. Highest-Selling Genre
 
 **Action** was the highest-selling genre:
 
-> **1,751.18 million units**
+**1,751.18 million units**
 
 This demonstrates strong historical commercial demand for Action games.
 
+### Business Insight
+
+Action games generated the strongest overall sales performance, making the genre an important category when analyzing historical gaming demand.
+
 ---
 
-## 4️⃣ Leading Publisher
+## 4. Leading Publisher
 
 **Nintendo** ranked first among publishers:
 
-> **1,786.56 million units**
+**1,786.56 million units**
 
 Nintendo also demonstrated exceptional individual-title performance, publishing **all 10 of the best-selling games** in the dataset.
 
+### Business Insight
+
+Nintendo's strong performance demonstrates the value of established franchises, recognizable intellectual property, and successful platform ecosystems.
+
 ---
 
-## 5️⃣ Best-Selling Games
+## 5. Best-Selling Games
 
 The Top 10 individual games generated a combined:
 
-> **369.39 million units**
+**369.39 million units**
 
 Among the Top 10:
 
@@ -160,9 +170,13 @@ Among the Top 10:
 - DS appeared in **1 title**
 - Nintendo published **all 10 titles**
 
+### Business Insight
+
+The concentration of Nintendo titles among the best-selling games highlights the commercial strength of major franchises and successful platform ecosystems.
+
 ---
 
-## 6️⃣ Regional Market Differences
+## 6. Regional Market Differences
 
 North America represented the largest regional market:
 
@@ -182,37 +196,67 @@ North America represented the largest regional market:
 | Japan | Role-Playing | 352.31M |
 | Other Regions | Action | 187.38M |
 
-Japan showed a distinct preference for **Role-Playing games**, while Action was the leading genre across the other major regional groups.
+### Business Insight
+
+Japan showed a distinct preference for **Role-Playing games**, while Action was the leading genre across the other major regional markets.
+
+This highlights the importance of understanding regional consumer preferences when developing and marketing video games.
 
 ---
 
-# 💡 Business Recommendations
+# Key Business Insights
 
-Based on the analysis:
+1. **2008 was the strongest sales year**, generating approximately **678.90 million units** in global sales.
 
-### 🎯 1. Focus on High-Demand Genres
+2. **PS2 was the highest-performing gaming platform**, with cumulative global sales of approximately **1,255.64 million units**.
+
+3. **Action was the highest-selling genre**, generating approximately **1,751.18 million units**.
+
+4. **Nintendo was the leading publisher**, with approximately **1,786.56 million units** in global sales.
+
+5. Nintendo published **all Top 10 best-selling games** in the dataset.
+
+6. **North America represented the largest regional market**, accounting for approximately **49.27% of total regional sales**.
+
+7. Regional gaming preferences differed significantly, with **Japan favoring Role-Playing games** while Action dominated other major markets.
+
+---
+
+# Business Recommendations
+
+## 1. Focus on High-Demand Genres
 
 Action games have demonstrated strong historical demand and represent an important commercial category.
 
-### 🎮 2. Consider Platform Performance
+However, genre selection should also consider regional preferences and current market trends.
 
-Historical platform sales should be considered when making game development and distribution decisions.
+## 2. Consider Platform Performance
 
-### 🏆 3. Build Strong Intellectual Properties
+Historical platform sales can provide useful insights when evaluating game development and distribution strategies.
+
+Successful platforms often benefit from strong user bases, extensive game libraries, and recognizable franchises.
+
+## 3. Build Strong Intellectual Properties
 
 Nintendo's dominance among the best-selling games demonstrates the potential value of recognizable franchises and strong intellectual properties.
 
-### 🌍 4. Adopt Regional Strategies
+Companies can benefit from developing long-term franchises and building strong customer loyalty.
+
+## 4. Adopt Regional Strategies
 
 Regional differences, particularly Japan's stronger Role-Playing performance, suggest that localized marketing and product strategies can be valuable.
 
-### 📊 5. Use Historical Trends
+Game developers and publishers should consider regional preferences when planning product launches.
+
+## 5. Use Historical Trends
 
 Historical sales patterns can help businesses understand market cycles and support future demand forecasting when combined with current market information.
 
+Historical data alone should not be used to predict future market performance.
+
 ---
 
-# 🛠️ Tools & Technologies
+# Tools & Technologies
 
 - **Python**
 - **NumPy**
@@ -222,42 +266,67 @@ Historical sales patterns can help businesses understand market cycles and suppo
 
 ---
 
-# 📓 Notebook
+# Notebook
 
 The complete analysis is available in:
 
-**`Video_Game_Sales_EDA.ipynb`**
+`Video_Game_Sales_EDA.ipynb`
 
 The notebook contains:
 
 - Data understanding
 - Data cleaning
-- Exploratory analysis
-- 6 business questions
-- Visualizations
+- Missing-value analysis
+- Exploratory data analysis
+- Six business questions
+- Data visualizations
 - Business insights
 - Recommendations
 - Conclusion
 
 ---
 
-# 📚 References
+# Skills Demonstrated
 
-- Kaggle — Video Game Sales Dataset
-- NumPy Documentation
-- Pandas Documentation
-- Matplotlib Documentation
+`Python` `NumPy` `Pandas` `Matplotlib` `Data Cleaning` `Missing Value Analysis` `Exploratory Data Analysis` `Data Visualization` `Trend Analysis` `Regional Analysis` `Business Insights` `Data Storytelling`
 
 ---
 
-## 👤 Author
+# References
 
-**L Shubham**
+## Dataset
 
-Aspiring Data Analyst | Python | SQL | Power BI | Excel | Tableau
+Kaggle — Video Game Sales Dataset
 
-📍 Pune, Maharashtra, India
+## Documentation
+
+NumPy Documentation
+
+Pandas Documentation
+
+Matplotlib Documentation
 
 ---
 
-⭐ If you found this project useful, consider giving the repository a star.
+# Repository Structure
+
+```text
+video-game-sales-eda/
+│
+├── Video_Game_Sales_EDA.ipynb
+├── README.md
+└── dataset/
+    └── README.md
+```
+---
+# Author
+
+## L Shubham
+
+# Data Analyst | Python | SQL | Power BI | Excel | Tableau | Data Visualization | Business Intelligence
+
+GitHub: https://github.com/shubham-lingam
+
+LinkedIn: https://www.linkedin.com/in/shubham-lingam
+
+If you found this project useful, consider giving the repository a star.
